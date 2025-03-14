@@ -22,7 +22,6 @@ const sidebars = {
   
   tutorialSidebar: [
     'introduction',
-    'hello',
     {
      type: 'category',
       label: 'Articles',
@@ -33,11 +32,14 @@ const sidebars = {
         'article4',
       ],
     },
-    // {
-    //   type: 'category',
-    //   label: 'Tutorial',
-    //   items: ['tutorial-basics/create-a-document'],
-    // },
+    {
+      type: 'category',
+      label: 'amendments',
+      items: [
+        'amendments1',
+        'amendments2',
+      ],
+    },
   ],
 };
 
