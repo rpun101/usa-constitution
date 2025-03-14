@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'USA Constitution',
+  tagline: 'We the People',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -23,7 +23,8 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'rabinpun lab', // Usually your GitHub org/user name.
-  projectName: 'usa-constition', // Usually your repo name.
+  projectName: 'usa-constitution', // Usually your repo name.
+  trailingSlash: false, // Important for GitHub Pages
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
