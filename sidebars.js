@@ -32,14 +32,6 @@ const sidebars = {
         'article4',
       ],
     },
-    {
-      type: 'category',
-      label: 'amendments',
-      items: [
-        'amendments1',
-        'amendments2',
-      ],
-    },
   ],
 };
 
